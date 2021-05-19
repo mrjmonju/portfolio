@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,100&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.background {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button-sticky {
+  background-color: #599a26;
+  border-radius: 3px;
+  position: fixed;
+  margin-left: auto;
+}
+@media(max-width: 700px){
+  .button-sticky{
+    visibility: hidden;
+  }
+  header .header-container {
+    padding-top: 0px !important;
+    padding-bottom: 135px;
+}
+}
+.button-sticky .btn-1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 7px 34px;
+}
+.button-st {
+  padding: 34px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .row .img {
+}
+header .header-container {
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+header .row .col-md-7 {
+  padding: 96px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+header .row .col-md-7 h2 {
+  font-size: 54px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+header .row .col-md-7 img {
+  width: 45%;
+  transform: skew(31deg, -30deg);
+  padding-bottom: 30px;
+  transition: all 0.9s;
+}
+header .row .col-md-7 img:hover {
+  width: 50%;
+  transform: skew(26deg, -21deg);
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+header .row .col-md-7 h1 {
+  color: #f67d5e;
+  font-size: 53px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+header .row .col-md-7 .header-text {
+  line-height: 35px;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 30px;
+  padding-right: 12%;
+  padding-left: 12%;
+}
+header .row .col-md-7 .welcome-btn .btn-2 {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 60px;
+  transition: all 0.4s;
+  border-radius: 3px;
+}
+header .row .col-md-7 .welcome-btn:hover .btn-2 {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 60px;
+  background-color: #f67d5e;
+  border-radius: 3px;
+}
+
+.mid {
+  background-color: #f9f9f9;
+  padding-bottom: 85px;
+}
+.mid .up {
+  padding-top: 109px;
+  text-align: center;
+  padding-bottom: 34px;
+  padding-left: 28%;
+  padding-right: 28%;
+}
+.mid .up h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.mid .up p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  padding-top: 9px;
+  line-height: 32px;
+  color: #000000b0;
+}
+.mid .row img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.mid .row h3 {
+  text-align: center;
+  padding-top: 41px;
+  text-shadow: -1px 1px 6px #00000030;
+  color: #000000ab;
+}
+
+.mid .row .mid-con {
+  padding: 18px 16px;
+}
+
+.hot {
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #d72828;
+  bottom: 75%;
+  left: 90%;
+  transition: all 0.05;
+}
+
+.hot:hover {
+  position: absolute;
+  height: 39px;
+  width: 39px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #f00c0c;
+  bottom: 75%;
+  left: 90%;
+}
+
+.p-hot {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.new {
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #143ec8;
+  bottom: 75%;
+  left: 90%;
+  transition: all 0.05;
+}
+
+.new:hover {
+  position: absolute;
+  height: 39px;
+  width: 39px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #083ff3;
+  bottom: 75%;
+  left: 90%;
+}
+
+.p-new {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.footer-1 .button-2 {
+  background-color: #599a26;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 17px 44px;
+}
+
+.footer-1 h1 {
+  font-weight: 300;
+  color: #000000a6;
+}
+.footer-1 p {
+  font-weight: 300;
+  color: ##000000a6;
+}
+
+.footer-2 {
+  background-color: #f9f9f9;
+  padding-top: 111px;
+  text-align: center;
+  padding-bottom: 95px;
+}
+.footer-2-heading {
+  margin-bottom: 29px;
+}
+.footer-2-heading .heading {
+  font-size: 38px;
+  font-weight: 400;
+}
+.footer-2 .row .footer-con {
+  padding: 22px -1px;
+}
+.footer-2 .row img {
+  width: 100%;
+  height: 182px;
+  object-fit: cover;
+}
+.footer {
+  background-color: #272727;
+}
+.footer p {
+  color: white;
+    padding: 20px;
+    font-weight: 200;
+    font-size: 13px;
+    margin: 0;
+    margin-left: 15%;
